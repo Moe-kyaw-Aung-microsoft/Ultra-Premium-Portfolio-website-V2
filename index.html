@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Moe Kyaw Aung | Android Developer</title>
+  <meta
+    name="description"
+    content="Professional portfolio of Moe Kyaw Aung, Android Developer skilled in Kotlin, Jetpack, Firebase, REST APIs, and modern mobile application development."
+  />
+  <meta
+    name="keywords"
+    content="Moe Kyaw Aung, Android Developer, Kotlin, Jetpack, Firebase, REST API, Portfolio, Mobile Developer"
+  />
+  <meta name="author" content="Moe Kyaw Aung" />
+
+  <meta property="og:title" content="Moe Kyaw Aung | Android Developer" />
+  <meta
+    property="og:description"
+    content="Android Developer portfolio featuring Kotlin, Jetpack, Firebase, REST APIs, and modern mobile application projects."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/profile.jpg" />
+  <meta property="og:url" content="https://your-portfolio-url.com" />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+  <div id="scroll-progress"></div>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Moe Kyaw Aung</a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        <button id="menu-toggle" class="icon-btn mobile-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <span class="badge">Android Developer</span>
+          <h1>Hi, I'm <span class="gradient-text">Moe Kyaw Aung</span></h1>
+          <h2>I build <span id="typing-text"></span></h2>
+          <p>
+            Android Developer based in Tachileik, Myanmar, with nearly two years of experience
+            building reliable, secure, and user-friendly mobile applications using Kotlin,
+            Jetpack, Firebase, and REST APIs.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="resume.md" class="btn secondary">Download CV</a>
+            <a href="#contact" class="btn ghost">Hire Me</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <h3>2 Years</h3>
+              <p>Android Experience</p>
+            </div>
+            <div class="stat-card">
+              <h3>Kotlin</h3>
+              <p>Modern Android Focus</p>
+            </div>
+            <div class="stat-card">
+              <h3>Secure</h3>
+              <p>Scalable Development</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image reveal">
+          <div class="image-card">
+            <img src="assets/profile.jpg" alt="Moe Kyaw Aung profile photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container reveal">
+        <div class="section-heading">
+          <span class="section-label">About Me</span>
+          <h2>Professional Profile</h2>
+        </div>
+        <div class="glass-panel">
+          <p>
+            I am an Android Developer passionate about creating mobile applications that are
+            reliable, efficient, and easy to use. My work focuses on Kotlin, Jetpack,
+            Firebase, REST API integration, app optimization, and clean architecture.
+          </p>
+          <p>
+            I enjoy solving real-world problems with technology and continuously improving my
+            technical skills. In addition to Android development, I also have exposure to web
+            and backend technologies through personal and GitHub projects, which gives me a
+            broader perspective on modern software development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container reveal">
+        <div class="section-heading">
+          <span class="section-label">Skills</span>
+          <h2>Technical Expertise</h2>
+        </div>
+
+        <div class="card-grid three">
+          <div class="premium-card">
+            <h3>Android Development</h3>
+            <ul>
+              <li>Kotlin</li>
+              <li>Android SDK</li>
+              <li>Jetpack Components</li>
+              <li>Firebase</li>
+              <li>REST API Integration</li>
+            </ul>
+          </div>
+
+          <div class="premium-card">
+            <h3>Engineering Practices</h3>
+            <ul>
+              <li>Clean Architecture</li>
+              <li>Secure Coding</li>
+              <li>Debugging</li>
+              <li>Performance Optimization</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+
+          <div class="premium-card">
+            <h3>Additional Technologies</h3>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>MongoDB / PostgreSQL / Docker / AWS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <div class="section-heading">
+          <span class="section-label">Projects</span>
+          <h2>Featured Work</h2>
+        </div>
+
+        <div class="card-grid two">
+          <article class="project-card premium-card">
+            <span class="project-badge">Full-Stack Project</span>
+            <h3>E-Commerce Platform</h3>
+            <p>
+              A full-stack e-commerce application with real-time inventory management and
+              payment gateway integration for practical commercial workflows.
+            </p>
+            <p class="stack"><strong>Tech Stack:</strong> React, Node.js, MongoDB, Redis, AWS</p>
+            <div class="project-actions">
+              <a href="https://github.com/Moe-KyawAung/ecommerce" target="_blank" rel="noopener" class="text-link">View GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card premium-card">
+            <span class="project-badge">Analytics Project</span>
+            <h3>AI-Powered Analytics Dashboard</h3>
+            <p>
+              A real-time analytics dashboard featuring data visualization, predictive insights,
+              and automated PDF report generation for data-driven decisions.
+            </p>
+            <p class="stack"><strong>Tech Stack:</strong> Python, FastAPI, React, PostgreSQL, Docker</p>
+            <div class="project-actions">
+              <a href="https://github.com/Moe-KyawAung/analytics-dashboard" target="_blank" rel="noopener" class="text-link">View GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <div class="section-heading">
+          <span class="section-label">Experience</span>
+          <h2>Professional Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item premium-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Android Developer</h3>
+              <p class="muted">Freelance / Independent Projects | 2023 – Present</p>
+              <ul>
+                <li>Developed and maintained Android applications with a focus on reliability, usability, and performance</li>
+                <li>Integrated REST APIs and third-party tools into mobile applications</li>
+                <li>Improved app stability through debugging, testing, and optimization</li>
+                <li>Applied secure coding practices and scalable development approaches</li>
+                <li>Built user-focused mobile experiences using modern Android tools</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-box premium-card">
+          <h3>Education & Certifications</h3>
+          <p><strong>Bachelor of Computer Science</strong> — University of Computer Studies, Yangon (2014 – 2018)</p>
+          <ul>
+            <li>C Programming Certification Course – Programming Hub</li>
+            <li>Computer Vision using Python Certification Course – Programming Hub</li>
+            <li>Cyber Security Certification Course – Programming Hub</li>
+            <li>CSS Certification Course – Programming Hub</li>
+            <li>Growth Hacking Certification Course – Programming Hub</li>
+            <li>Google Shopping Ads Certification Course – Programming Hub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reveal">
+        <div class="section-heading">
+          <span class="section-label">Learning</span>
+          <h2>Currently Learning</h2>
+        </div>
+        <div class="tag-list">
+          <span>Docker & Containerization</span>
+          <span>AWS Cloud Services</span>
+          <span>Advanced React Patterns</span>
+          <span>Microservices Architecture</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container reveal">
+        <div class="contact-panel">
+          <div class="contact-left">
+            <span class="section-label">Contact</span>
+            <h2>Let's Build Something Great</h2>
+            <p>
+              If you are looking for an Android Developer or would like to discuss a project,
+              collaboration, or opportunity, feel free to contact me.
+            </p>
+          </div>
+
+          <div class="contact-right">
+            <a href="mailto:moekyawaung@engineer.com" class="contact-item">moekyawaung@engineer.com</a>
+            <a href="tel:+959889000889" class="contact-item">+95 9889000889</a>
+            <a href="https://www.linkedin.com/in/moe-kyaw-aung-2653093a1" target="_blank" rel="noopener" class="contact-item">LinkedIn Profile</a>
+            <a href="https://github.com/Moe-KyawAung" target="_blank" rel="noopener" class="contact-item">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <div>
+        <h3>Moe Kyaw Aung</h3>
+        <p>Android Developer | Kotlin | Jetpack | Firebase | REST APIs</p>
+      </div>
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 Moe Kyaw Aung. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
